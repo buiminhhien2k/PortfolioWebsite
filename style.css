@@ -1,0 +1,56 @@
+/*style.css*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+header{
+	padding: 0.5rem;
+	z-index: 1;
+}
+#edu, #exp, #per {
+/*	height:20rem;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 0.5rem;
+}
+
+.info-title, .subcard, .show-more {
+	margin-left: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.subcard {
+/*	min-height: 5rem;*/
+	border-bottom: 0.5rem;
+	padding: 0.5rem;
+}
+
+.center {
+/*  display: block;*/
+  margin-left: auto;
+  margin-right: auto;
+/*  width: 50%;*/
+}
+
+.funcc{
+	width:fit-content;
+}
+.funcc:hover {
+    color:grey;
+/*    background: #gr;*/
+    cursor: pointer;
+}
+/*
+#carouselExampleControls{
+	z-index: 0;
+}
+*/
+
+
+/*.sticky + main {
+  padding-top: 20rem;
+}*/
